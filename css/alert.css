@@ -1,11 +1,12 @@
 .alert {
   padding: 32px 48px 32px 100px !important;
-  gap: 24px;
+  gap: 0px;
   border:none !important;
   border-radius:0px !important;
   position:relative;
   display:flex;
-  align-items:center;
+  flex-direction:column;
+  justify-content:center;
 }
 .alert p{
   padding-left:24px;
@@ -43,9 +44,8 @@
   display:inline-block;
   width:104px;
   left:0;
-  height:calc(100% - 76px);
+  height:calc(100% - 72px);
   padding:0px 24px 0 0px;
-  margin-top: 6px;
   background-size:48px 48px;
   min-height:48px;
 }
