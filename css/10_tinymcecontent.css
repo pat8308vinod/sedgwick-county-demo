@@ -1,0 +1,170 @@
+﻿body.mce-content-body, body.mce-content-body caption, body.mce-content-body td, body.mce-content-body th {
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+}
+
+body.mce-content-body {
+    font-size: 100%;
+    color: #333;
+}
+
+body.mce-content-body td, body.mce-content-body th {
+    font-size: .87em;
+    color: #333;
+}
+
+body.mce-content-body caption {
+    font-size: 1.75rem;
+    padding: .25rem;
+    color: #eb9639;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+body.mce-content-body li {
+    margin-bottom: .6em;
+    font-size: 13.93px;
+}
+
+body.mce-content-body li > ul {
+    margin-top: .6em;
+}
+
+body.mce-content-body img[rel] {
+    margin: 0 8px 5px 8px;
+}
+
+body.mce-content-body a[href]:not([href^='http']):not([data-udi]):not([href^='mailto:']):not([href^='tel:']):not([href^='#']), body.mce-content-body a[href^='http://www.sedgwickcounty.org'] {
+    border: 2px solid red;
+    padding: 0 4px;
+}
+
+body.mce-content-body img {
+    max-width: 100%;
+}
+
+/**umb_name:Section Heading*/
+
+h3 {
+    color: #003050;
+    margin-bottom: 0.75rem;
+    font-size: 1.75rem;
+    margin-top: 0.75rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1px;
+}
+
+/**umb_name:Introduction*/
+
+p.introtext {
+    font-size: 1.2rem;
+    color: #7e7e7e;
+}
+
+/**umb_name:Attention*/
+
+div.attention {
+    font-size: 1.2rem;
+    color: #444;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/**umb_name:Paragraph*/
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/**umb_name:Subsection Heading*/
+
+h4 {
+    color: #0080b4;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+    font-size: 1.25rem;
+    font-weight: normal;
+    letter-spacing: -1px;
+}
+
+/**umb_name:Critical*/
+
+div.critical {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #f00;
+    line-height: normal;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+aside {
+    margin: 1.5rem 2rem;
+    background: url('/Images/dot-background-small.png') center repeat-x;
+    box-sizing: border-box;
+    border: 2px dotted #dadada;
+}
+
+/**umb_name:Aside Link*/
+
+aside.normal {
+    margin: 1.5rem 2rem;
+    box-sizing: border-box;
+    border-left: 3px solid #6aaae4;
+    padding: .5rem 1rem .5rem 10px;
+}
+
+aside.normal a {
+    display: inline-block;
+    padding: 3px 12px 0 36px;
+    background: url('/Images/arrow-right-bold-box-24.png') top 2px left 2px no-repeat rgba(255, 255, 255, 1);
+    min-height: 26px;
+    font-weight: 600;
+}
+
+/**umb_name:Aside Attention*/
+
+aside.attention {
+    margin: 1.5rem 2rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+    border: 2px dotted #c0c0c0;
+    background: url('/Images/dot-background.png') center repeat-x;
+    background-color: #fafafa;
+}
+
+aside.attention a {
+    display: inline-block;
+    font-weight: 600;
+    background: url('/Images/arrow-right-bold-box-48.png') left top no-repeat #fafafa;
+    padding: .3rem 12px .3rem 52px;
+    min-height: 40px;
+    line-height: 2.25rem;
+}
+
+/**umb_name:Aside Information*/
+
+aside.info {
+    margin: 1.5rem 2rem;
+    box-sizing: border-box;
+    padding: .5rem 1rem .5rem calc(30px + 1rem);
+    border-left: 3px solid #6aaae4;
+    background: url('/Images/information-24.png') top 6px left 12px no-repeat;
+    min-height: 36px;
+    font-style: italic;
+}
+
+/**umb_name:Aside Warning*/
+
+aside.warning {
+    margin: 1.5rem 2rem;
+    box-sizing: border-box;
+    padding: .5rem 1rem .5rem calc(30px + 1rem);
+    border-left: 4px solid #D50000;
+    background: url('/Images/alert-24.png') top 6px left 12px no-repeat rgba(213, 0, 0, .06);
+    min-height: 36px;
+}

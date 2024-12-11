@@ -1,0 +1,86 @@
+h1,.h1{
+  color:var(--mid-blue);
+  font-size: 64px;
+  font-weight:900;
+  line-height:1.1;
+}h4,
+.h4 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+}
+p:last-child {
+  margin-bottom: 0;
+}
+p {
+  font-weight: 500;
+}
+a {
+  color: var(--dark-blue);
+}
+.text-light-blue {
+  color: var(--light-blue);
+}
+.text-white {
+  color: var(--white);
+}
+.btn {
+  display: inline-flex !important;
+  padding: 8px 16px;
+  border-radius: 0 !important;
+  color: var(--dark-blue);
+  width: auto;
+}
+.btn.btn-learn-more {
+  background: var(--yellow);
+  color: var(--dark-blue) !important;
+  position:relative;
+  align-items:center;
+  gap:8px;
+  padding: 4px 16px 8px 16px;
+  margin:12px 0 16px 0;
+}
+.btn-learn-more::after {
+  content: "";
+  background: url("../assets/images/chevron-right.svg") no-repeat center right;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  margin-top:4px;
+}
+.sc-primary-btn{
+  border: 2.5px solid #0082CA;
+  padding:8px 32px;
+  display:inline-flex;
+  align-items:center;
+  font-size:14px;
+  text-transform:uppercase;
+  gap:16px;
+  letter-spacing:1px;
+}
+.sc-primary-btn::after {
+  content: "";
+  background: url("../assets/images/chevron-right.svg") no-repeat center right;
+  width: 32px;
+  height: 32px;
+  background-size: 21px 21px;
+  display:inline-block;
+  vertical-align:middle;
+}
+.bg-dark-blue {
+  background: var(--dark-blue);
+}
+.bg-light-grey {
+  background: var(--light-grey);
+}
+.bg-light-blue {
+  background: var(--light-blue);
+}
+@media(max-width:768px){
+  h1,.h1{
+    color:var(--mid-blue);
+    font-size: 36px;
+    font-weight:700;
+    line-height:1.1;
+  }
+}

@@ -1,0 +1,33 @@
+.cardWrapper {
+    display: block;
+    padding: 1rem;
+ 	margin: 0;  
+  	display: -webkit-box;
+  	display: -moz-box;
+  	display: -ms-flexbox;
+  	display: -webkit-flex;
+  	display: flex;  
+  	-webkit-flex-flow: row wrap;
+  	justify-content: space-around;
+}
+
+.topCard {
+    display: block;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 128, 180, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    max-width: 400px;
+	margin: .5em;
+}
+
+.topCard:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 128, 180, 0.2);
+}
+
+.container {
+    left: 0;
+    bottom: 0px;
+    padding: 5%;
+    border-radius: 5px;
+}

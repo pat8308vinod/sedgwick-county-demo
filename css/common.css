@@ -1,0 +1,43 @@
+.error {
+    background: #d02828;
+    color: #fff;
+    padding: 0.6em;
+    text-align: center;
+    margin: .25em 0;
+    display: inline-block;
+}
+
+.image-full img {
+    margin-bottom: 1.5em;
+}
+
+td.numeric, th.numeric, .sectionTable .numeric {
+    text-align: right;
+    padding-right: 1em;
+    width: 5em;
+}
+
+td.percentage, th.percentage, .sectionTable .percentage {
+    text-align: right;
+    padding-right: 1em;
+    width: 4em;
+}
+.fb-page {
+    float: right;
+    margin-left: 1.5em;
+    margin-bottom: 2em;
+}
+
+#topcontrol {
+    background: rgba(255, 255, 255, .8);
+}
+
+@media only screen and (max-width: 850px) {
+    .fb-page {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        text-align: center;
+    }
+}

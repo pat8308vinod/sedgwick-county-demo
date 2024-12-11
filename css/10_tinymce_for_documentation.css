@@ -1,0 +1,51 @@
+﻿body.mce-content-body, body.mce-content-body caption, body.mce-content-body td, body.mce-content-body th {
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+}
+
+body.mce-content-body {
+    font-size: 100%;
+    color: #333;
+}
+
+body.mce-content-body td, body.mce-content-body th {
+    font-size: .87em;
+    color: #333;
+}
+
+body.mce-content-body caption {
+    font-size: 1.75rem;
+    padding: .25rem;
+    color: #eb9639;
+    margin-top: 0.4rem;
+    margin-bottom: 0.4rem;
+}
+
+body.mce-content-body li {
+    margin-bottom: .6em;
+    font-size: 13.93px;
+}
+
+body.mce-content-body li > ul {
+    margin-top: .6em;
+}
+
+body.mce-content-body img[rel] {
+    margin: 0 8px 5px 8px;
+}
+
+body.mce-content-body a[href]:not([href^='http']):not([data-udi]):not([href^='mailto:']):not([href^='tel:']):not([href^='#']), body.mce-content-body a[href^='http://www.sedgwickcounty.org'] {
+    border: 2px solid red;
+    padding: 0 4px;
+}
+
+/**umb_name:Heading*/
+
+h2 {
+    font-size: 1.25rem;
+}
+
+/**umb_name:Subheading*/
+
+h3 {
+    font-size: 1rem;
+}

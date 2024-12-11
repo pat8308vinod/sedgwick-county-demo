@@ -1,0 +1,121 @@
+﻿#calendarWidget dl.date {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: -15px;
+    padding-bottom: 15px;
+    clear: both;
+}
+
+#calendarWidget dl.date > dt {
+    width: 48px;
+    height: 68px;
+    z-index: 5;
+    position: relative;
+    border-radius: 6px;
+    background-color: #003050;
+    border: 1px solid #666666;
+    margin-top: 6px;
+    float: left;
+    line-height: 20px;
+}
+
+#calendarWidget dl.date > dt span {
+    color: #fff;
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+}
+
+#calendarWidget dl.date > dt span.dayOfWeek {
+    text-transform: uppercase;
+    line-height: 1rem;
+    padding-top: 1px;
+}
+
+#calendarWidget dl.date > dt span.day {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#calendarWidget dl.date > dt span.month {
+    line-height: 13px;
+    margin-top: 2px;
+    text-transform: uppercase;
+}
+
+#calendarWidget dl.date > dt span.year {
+    line-height: 13px;
+}
+
+#calendarWidget dd.event {
+    margin-left: 70px;
+}
+
+dd.cancelledEvent {
+    opacity: .5
+}
+
+#calendarWidget dd.event dt {
+    font-weight: 600;
+    padding-bottom: .3em;
+}
+
+#calendarWidget dd.event span.time {
+    background-color: #d1edff;
+    padding: .2em .4em;
+    border-radius: 4px;
+    margin-right: .2em;
+}
+
+.eventFullDateTime {
+    font-size: 1.3em;
+    margin: 1.5em auto;
+}
+
+.eventLocation {
+    font-size: 1.1em;
+    margin: 1.5em auto 1.5em 7em;
+    text-indent: -15em;
+}
+
+.eventLocationPrefix {
+    margin-right: 1.5em;
+    color: #999;
+    text-indent: 9.5em;
+    display: inline-block;
+}
+
+.calendar {
+    margin-bottom: 4em;
+}
+
+.calendar h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.calendar dt {
+    margin-top: 0.5em;
+    font-size: 1.38em;
+    line-height: 1.25;
+    font-weight: 600;
+    padding: .5em 12px;
+    border-bottom: 1px solid #ccc;
+}
+
+.calendar dd {
+    margin-bottom: 1em;
+    padding: 1em 12px .5em 12px;
+}
+
+.calendar dt:nth-of-type(2n + 1), .calendar dd:nth-of-type(2n + 1) {
+    background-color: #f8f8f8;
+}
+
+.calendarStartDate {
+    font-weight: 600;
+}

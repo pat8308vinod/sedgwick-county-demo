@@ -1,0 +1,118 @@
+body .btn-link {
+    color: #0056b3 !important;
+  }
+  body .btn-link:hover {
+    color: #073a70 !important;
+  }
+  body a.dashboardWidgetButton {
+    background: #0056b3;
+  }
+  body .btn-primary {
+    background: #0056b3 !important;
+  }
+  body .btn-outline-secondary {
+    border: 1px solid #0056b3 !important;
+    color: #0056b3 !important;
+  }
+  body .btn-outline-secondary:hover {
+    background-color: #073a70 !important;
+    border-color: #073a70 !important;
+  }
+  body .logoContainer p span {
+    color: #073a70 !important;
+  }
+  body .table-responsive table h2 {
+    color: #0056b3 !important;
+  }
+  body .alert-warning {
+    color: #6c5004;
+  }
+  body a#topLogoLink {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  body .input-group-prepend .input-group-text {
+    background-color: #fcfcfc;
+    border: 1px solid #fcfcfc;
+  }
+  body header a.nav-link {
+    min-width: 44px;
+    min-height: 44px;
+  }
+  body header button[data-toggle*="modal"] {
+    min-width: 44px;
+    min-height: 44px;
+    line-height: 44px;
+    text-align: center;
+    display: inline-block;
+  }
+  body .breadcrumb-item a {
+    min-width: 44px;
+    min-height: 44px;
+    display: inline;
+    padding: 8px 0;
+  }
+  body article ul li {
+    line-height: 1.7;
+    margin-top: 8px;
+  }
+  body article ul li:first-of-type {
+    margin-top: 0;
+  }
+  body .side-bar ul li {
+    line-height: 1.7;
+    margin-top: 0;
+  }
+  body .card-deck .card .card-body {
+    font-size: 24px;
+  }
+  body .treasurerrequestforrecordscertification {
+    margin-bottom: 32px;
+  }
+  body div.ctct-form-embed div.ctct-form-defaults p.ctct-gdpr-text {
+    font: 11px 'helvetica neue', Arial, sans-serif;
+    line-height: 1.5;
+  }
+
+/* New fixes 2nd round starts */
+body #mastheadSearchForm button[type='submit'] {
+    background-position: center;
+    padding: 5px 0 4px 34px;
+    width: auto;
+    text-indent: -9999px;
+}
+#mastheadSearchForm input + div {
+    bottom: 17px;
+}
+body .breadcrumb-item + .breadcrumb-item::before {
+    line-height: 1.7;
+}
+body .alert-warning {
+    color: #674E04;
+}
+body .text-muted {
+    color: #212529 !important;
+}
+body .btn-link {
+    color: #004C9E;
+}
+body a {
+    color: #004C9E;
+}
+body a.dashboardWidgetButton {
+    background-color: #005F85;
+}
+body .page-item.disabled .page-link {
+    color: #51575D;
+}
+body h5, body .h5, body h6, body .h6 {
+    line-height: 1.5;
+}
+body .card .card-body a + .h5 {
+    margin-top: 8px;
+}
+
+body a:visited {
+    color: #7A3E7A;
+}
+  /* New fixes 2nd round ends */

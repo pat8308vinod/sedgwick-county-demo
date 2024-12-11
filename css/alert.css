@@ -1,0 +1,97 @@
+.alert {
+  padding: 32px 48px 32px 100px !important;
+  gap: 24px;
+  border:none !important;
+  border-radius:0px !important;
+  position:relative;
+  display:flex;
+  align-items:center;
+}
+.alert p{
+  padding-left:24px;
+  margin-bottom:8px;
+}.alert p:first-child{
+  text-transform:uppercase;
+  font-size:13px;
+}
+.alert p:last-child{
+  margin-bottom:0;
+}
+.info {
+  background-color: #fff2b8 !important;
+  color: var(--dark-blue) !important;
+
+}
+.announcement{
+  background-color: var(--light-blue) !important;
+  color: var(--dark-blue) !important;
+
+}
+.warning {
+  background-color: var(--yellow) !important;
+  color: var(--dark-blue) !important;
+
+}
+.danger {
+  background-color: var(--red) !important;
+  color: var(--white) !important;
+
+}
+.alert::before{
+  content:"";
+  position:absolute;
+  display:inline-block;
+  width:104px;
+  left:0;
+  height:calc(100% - 76px);
+  padding:0px 24px 0 0px;
+  margin-top: 6px;
+  background-size:48px 48px;
+  min-height:48px;
+}
+.info::before{
+  background: url('../assets/images/info-alert-icon.svg') no-repeat center left 48px;
+  border-right:2.5px solid #E08433;
+}
+.announcement::before{
+  background: url('../assets/images/bell.svg') no-repeat center left 48px;
+  border-right:2.5px solid var(--dark-blue);
+}
+.warning::before{
+  background: url('../assets/images/circle-alert.svg') no-repeat center left 48px;
+  border-right:2.5px solid var(--dark-blue);
+}
+.danger::before{
+  background: url('../assets/images/triangle-alert.svg') no-repeat center left 48px;
+  border-right:2.5px solid var(--white);
+}
+
+
+@media(max-width:768px){
+  .alert {
+    padding: 16px 24px 16px 72px !important;
+  }
+  .alert::before{
+    padding:0px 24px 0 0px;
+    margin-top: 6px;
+    background-size:48px 48px;
+    width:76px;
+    height:calc(100% - 38px);
+  }
+  .info::before{
+    background: url('../assets/images/info-alert-icon.svg') no-repeat center left 24px;
+  }
+  .announcement::before{
+    background: url('../assets/images/bell.svg') no-repeat center left 24px;
+    border-right:2.5px solid var(--dark-blue);
+  }
+  .warning::before{
+    background: url('../assets/images/circle-alert.svg') no-repeat center left 24px;
+    border-right:2.5px solid var(--dark-blue);
+  }
+  .danger::before{
+    background: url('../assets/images/triangle-alert.svg') no-repeat center left 24px;
+    border-right:2.5px solid var(--white);
+  }
+  
+}

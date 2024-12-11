@@ -1,0 +1,161 @@
+.needToKnowSubsection h2,
+.needToKnowSubsection p {
+  color: var(--white);
+  background: var(--dark-teal);
+  margin-bottom: 0 !important;
+}
+.needToKnowSubsection dl,
+.needToKnowSubsection dd {
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.needToKnowSubsection h2 {
+  padding: 24px 20px 8px 20px;
+}
+.needToKnowSubsection p {
+  padding: 0px 20px 24px 20px;
+}
+.date {
+  background: #95d4e980;
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid var(--sky-blue);
+  min-height:167px;
+}
+.date:last-child {
+  border-bottom: none;
+}
+.date > dt {
+  position: absolute;
+  top: calc(50% - 0px);
+  transform: translateY(-50%); /* Centers vertically */
+  width: 20%;
+  text-align: left;
+  margin-top: 24px;
+}
+
+.date > dd.event {
+  float: right;
+  width: calc(100% - 116px);
+  margin-bottom: 24px;
+  clear: both;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--sky-blue);
+}
+.date > dd.event:last-child {
+  margin-bottom: 0;
+}
+
+.date > dd.event:last-child {
+  border: none;
+  padding-bottom: 0;
+}
+
+.date > dd.event dl {
+  display: block;
+}
+
+.date > dd.event dl dt {
+  font-weight: 600;
+  font-size: 20px;
+  color: var(--dark-blue);
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.date > dd.event dl dt span {
+  display: block;
+  background: var(--dark-blue);
+  width: max-content;
+  color: var(--white);
+  padding: 3px 8px 4px 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.date > dt {
+  background: var(--dark-teal);
+  padding: 16px;
+  display: flex;
+  color: var(--yellow);
+  flex-wrap: wrap;
+  float: left;
+  width: 100px;
+  max-width: 100px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 4px;
+  font-size: 14px;
+  margin: auto 0;
+}
+.date > dt .day {
+  font-size: 48px;
+  color: #ffffff;
+}
+.date > dt .day,
+.date > dt .dayOfWeek {
+  flex: 0 0 100%;
+  text-align: center;
+  margin-bottom: -8px;
+}
+
+/* New and Connect Section css */
+.sc-news-connect-wrap {
+  padding: 14px 24px;
+  background: var(--light-grey);
+  height: 100%;
+}
+.sc-news-connect-wrap h2
+a {
+  color: var(--dark-blue);
+}
+.sc-news-connect-wrap h2 a {
+  font-weight: bold;
+}
+.sc-news-connect-wrap ul {
+  color: var(--dark-blue);
+  list-style-type: none;
+  padding-left: 0;
+}
+.sc-news-connect-wrap ul li {
+  border-bottom: 1px solid var(--mid-grey);
+  padding: 18px 0px 18px 0;
+}
+.sc-news-connect-wrap ul a {
+  color: var(--dark-blue);
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  position: relative;
+  margin-bottom: 12px;
+  padding-right: 24px;
+}
+
+.sc-news-connect-wrap ul li a:last-child {
+  margin-bottom: 0;
+}
+
+.sc-news-connect-wrap ul span {
+  font-weight: bold;
+  color: var(--dark-blue);
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.sc-news-connect-wrap ul li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+.sc-news-connect-wrap ul a::after {
+  content: "";
+  background: url("../assets/images/chevron-right.svg") no-repeat center right;
+  width: 16px;
+  height: 16px;
+  background-size: 16px;
+  float: right;
+  position: absolute;
+  right: 0;
+}

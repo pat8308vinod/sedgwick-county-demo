@@ -1,0 +1,17 @@
+header, #breadcrumbs, footer, #PageTitle {
+	display: none;
+}
+.pageContentContainer {
+	margin: 0;
+	min-width: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+
+.videoWrapper {
+	position: inherit; 
+	padding-bottom: 0; 
+	padding-top: 0; 
+	height: 0; 
+	margin-bottom: 0;
+}
