@@ -25,6 +25,9 @@ a {
 .mb-32 {
   margin-bottom: 32px;
 }
+.mt-68 {
+  margin-top: 68px;
+}
 
 @media (min-width: 768px) {
   .mx-md-50 {
