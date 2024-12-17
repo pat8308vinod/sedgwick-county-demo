@@ -267,7 +267,7 @@ a.btn:visited {
 }
 
 .card-group > .card {
-  margin-bottom: 15px;
+  margin-bottom: 32px;
 }
 
 @media (min-width: 576px) {
@@ -330,47 +330,20 @@ a.btn:visited {
     width: 100%;
   }
 }
-
-/* Card Css Start */
-.sc-home-card-wrap .card {
-  border:none;
-}
-.sc-home-card-wrap .card .card-body{
-display:flex;
-align-items:center;
-}
-.sc-home-card-wrap .card .card-body{
-  padding:24px;
-  background:var(--light-grey)
-}
-
-
-.stretched-link{
-  color:var(--dark-blue);
-  background: url('../assets/images/chevron-right.svg') no-repeat center right;
-  padding-right:32px;
-}
-
-
-@media(max-width:768px){
-  .sc-home-card-wrap .card {
-    margin-bottom:24px;
-  }
-}
-
 .sc-ele-office-card .card{
-background:var(--mid-grey);
-border:none;
-border-radius:0px;
-padding:0px 9px 24px 0px;
+  background:var(--mid-grey);
+  border:none;
+  border-radius:0px;
+  padding:4px 4px 24px 4px;
 }
-.sc-ele-office-card .card p{
-  font-size:14px;
-  font-weight:500;
-  line-height:1.3;
+.sc-ele-office-card .card img{
+  margin-bottom: 18px;
+}
+@media (max-width:768px){
+  .card-deck .card {
+    margin-bottom: 32px;
   }
-.sc-ele-office-card .card p a{
-  font-size:20px;
-  font-weight:600;
+  .card-deck .card:first-child {
+    margin-top: 32px;
   }
-/* Card Css End */
+}

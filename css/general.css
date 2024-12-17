@@ -1,12 +1,31 @@
 .container-fluid {
   max-width: 1360px !important;
 }
+.container-xl,
+.container {
+  max-width: 1172px;
+}
 a {
   font-weight: 500;
 }
 .pb-32 {
   padding-bottom: 32px;
 }
+.py-32 {
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
+.my-32 {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.mt-32 {
+  margin-top: 32px;
+}
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 @media (min-width: 768px) {
   .mx-md-50 {
     max-width: 50%;
@@ -38,8 +57,6 @@ a {
   }
 }
 /* Image - Text section CSS End*/
-
-
 
 /* Event section css */
 .sc-event-heading-wrap {
@@ -110,11 +127,23 @@ a {
 }
 /* Event section css End */
 
+/* Home Card Css */
+
+.sc-home-card-wrap .card{
+ background-color:var(--light-grey);
+ border:none;
+ border-radius:0px;
+}
+.sc-home-card-wrap .card .card-body{
+  color:var(--dark-blue);
+}
 
 /* Sidebar secondary Css */
-.side-bar{
+
+.side-bar .nav {
   border-right: 1px solid var(--mid-grey);
-  padding-right: 28px;
+  padding-right: 16px;
+  padding-top: 54px;
 }
 .side-bar ul li {
   padding: 8px 0px;
@@ -123,6 +152,55 @@ a {
 .side-bar ul li:last-child {
   border-bottom: 0px;
 }
+.side-bar .sc-accordion {
+  //border: 1px solid var(--mid-grey);
+}
+.side-bar .accordion-header {
+  padding: 16px;
+  border: 1px solid var(--mid-grey);
+}
+@media (max-width: 768px) {
+  .side-bar .nav {
+    border-right: none;
+    padding: 0;
+  }
+  #sc-menu-list {
+    max-height: 419px;
+    overflow-y: auto;
+    padding: 8px 24px 24px 24px;
+    box-shadow: 0px 10px 24px 0px #002b494d;
+  }
+  
+  .accordion-header .btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+  }
+  .accordion-header .btn:after {
+    content: "";
+    background: url("../assets/images/chevron-down.svg") no-repeat center right;
+    width: 16px;
+    height: 16px;
+    background-size: 16px;
+  }
+  #sc-menu-list::-webkit-scrollbar {
+    width: 5px;
+  }
 
+  #sc-menu-list::-webkit-scrollbar-track {
+    background: var(--light-blue);
+    margin-top: 24px;
+    margin-right: 16px !important;
+    margin-bottom: 24px !important;
+    border-radius: 8px;
+    border: none;
+    
+  }
 
-
+  #sc-menu-list::-webkit-scrollbar-thumb {
+    background-color: var(--dark-blue);
+    border-radius: 8px;
+    border: none;
+  }
+}

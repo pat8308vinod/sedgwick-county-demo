@@ -22,7 +22,7 @@
   overflow: hidden;
   position: relative;
   border-bottom: 1px solid var(--sky-blue);
-  min-height:167px;
+  min-height: 167px;
 }
 .date:last-child {
   border-bottom: none;
@@ -38,7 +38,7 @@
 
 .date > dd.event {
   float: right;
-  width: calc(100% - 116px);
+  width: calc(100% - 132px);
   margin-bottom: 24px;
   clear: both;
   padding-bottom: 24px;
@@ -68,9 +68,9 @@
 .date > dd.event dl dt span {
   display: block;
   background: var(--dark-blue);
-  width: max-content;
+  width: fit-content;
   color: var(--white);
-  padding: 3px 8px 4px 8px;
+  padding: 5px 12px 5px 12px;
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -95,6 +95,7 @@
 .date > dt .day {
   font-size: 48px;
   color: #ffffff;
+  line-height: 1.3;
 }
 .date > dt .day,
 .date > dt .dayOfWeek {
@@ -109,8 +110,7 @@
   background: var(--light-grey);
   height: 100%;
 }
-.sc-news-connect-wrap h2
-a {
+.sc-news-connect-wrap h2 a {
   color: var(--dark-blue);
 }
 .sc-news-connect-wrap h2 a {
@@ -158,4 +158,38 @@ a {
   float: right;
   position: absolute;
   right: 0;
+}
+@media (max-width: 768px) {
+  .date > dt .day {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    margin: 16px 0 8px 0;
+  }
+  .date > dt {
+    width: auto;
+    padding: 16px 8px;
+    max-width: 77px;
+  }
+  .date > dd.event {
+    width: calc(100% - 108px);
+  }
+  .date > dd.event dl dt {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--dark-blue);
+    line-height: 1.3;
+    margin-bottom: 4px;
+  }
+  .date > dd.event dl dt span {
+    width: fit-content;
+    font-size: 12px;
+  }
+  .needToKnowSubsection dl,
+  .needToKnowSubsection dd {
+    margin-bottom: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+  }
 }
